@@ -21,45 +21,6 @@ a {
     margin: auto;
 }
 
-/* ===== HEADER ===== */
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #111;
-    z-index: 1000;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 0;
-}
-
-.logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 28px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 15px;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-    color: #f4b400;
-}
-
 /* ===== HERO ===== */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
@@ -179,12 +140,54 @@ nav ul li a.active {
     font-style: italic;
 }
 
-.menu-card .price {
-    color: #f4b400;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 8px;
+
+/* ===== MENU CARD IMAGE STYLE ===== */
+.menu-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0;
 }
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.menu-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+.menu-card-body {
+    padding: 20px;
+}
+
+.menu-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.menu-card .description {
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-card .price,
+.menu-card .taste {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #f4b400;
+}
+
 
 /* ===== FOOTER ===== */
 footer {
@@ -219,4 +222,9 @@ footer {
     .hero h1 {
         font-size: 32px;
     }
+
+    .hero {
+    background-attachment: fixed;
+    }
+
 }

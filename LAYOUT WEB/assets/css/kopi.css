@@ -21,53 +21,6 @@ a {
     margin: auto;
 }
 
-/* ===== HEADER ===== */
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #111;
-    z-index: 1000;
-}
-
-/* Navbar container */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 0;
-}
-
-/* Logo */
-.logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-/* Menu */
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 28px;
-}
-
-nav ul li a {
-    color: #fff;
-    font-size: 15px;
-}
-
-/* Hover effect */
-nav ul li a:hover {
-    color: #f4b400;
-}
-
-/* Active menu (optional) */
-nav ul li a.active {
-    color: #f4b400;
-    font-weight: 600;
-}
-
 /* HERO */
 .hero {
     text-align: center;

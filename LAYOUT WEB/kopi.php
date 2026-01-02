@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Kopi Kami - Coffee Toffee</title>
     <link rel="stylesheet" href="assets/css/kopi.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 <body>
@@ -18,8 +19,8 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="kopi.php">Kopi</a></li>
           <li><a href="menu.php">Menu</a></li>
-          <li><a href="#">Tentang</a></li>
-          <li><a href="#">Kontak</a></li>
+          <li><a href="tentang_kami.php">Tentang Kami</a></li>
+          <li><a href="kontak.php">Kontak</a></li>
           
           <?php if (isset($_SESSION['login'])): ?>
             <!-- Jika sudah login -->
@@ -51,11 +52,9 @@
         <p>
             Selaras dengan kampanye kami : "Yes, I Drink Indonesian Coffee" maka Coffee Tofee berkomitment HANYA menggunakan biji - biji kopi terbaik Indonesia. Lagipula kopi Indonesia tidak kalah juga koq dengan kopi dari luar negeri. 
         </p>
-        <br>
         <p>
            Kami menggunakan dua varian kopi : Arabika dan Robusta. Untuk arabika kami menggunakan grade "Specialty Arabica", sedangkan untuk robusta kami menggunakan grade "Fine Robusta". Kualitas terbaik di kelasnya.
         </p>
-        <br>
         <p>
             Saat ini kami menyediakan 8 origin terbaik dari berbagai perkebunan yang tersebar di Indonesia, salah satunya dari perkebunan kami sendiri di lereng Gunung Arjuno, Jawa Timur. Dengan berjalannya waktu, kami berencana untuk menambah varian coffee origin ini agar masyarakat Indonesia dapat menikmati aks biji - biji kopi terbaik dari seluruh Indonesia dengan harga terjangkau dan dengan mudah.
         </p>
@@ -89,6 +88,30 @@
             <img src="https://cdn.bitrix24.id/b14044525/landing/728/728a70859ac59b125656f6e57ebd1beb/Coffee_Toffee_-_Freshly_Roast_02b_2x.jpg">
             <h3>FRESHLY ROAST</h3>
             <p>Kami memastikan kamu mendapatkan biji kopi dengan tingkat kesegaran terbaik melalui panggangan terbaru di setiap gerai Coffee Toffee.</p>
+        </div>
+    </div>
+</section>
+
+<!-- KUALITAS -->
+<section class="section-center">
+    <h1>PEMANGGANGAN IN-HOUSE</h1>
+    <div class="line"></div>
+    <p>
+        Proses pemanggangan adalah salah satu proses kunci dalam mendapatkan  dan menjaga kualitas terbaik biji - biji kopi Coffee Toffee. Oleh karena itu, dimulai di tahun 2009 kami memutuskan untuk membangun fasilitas pemanggangan kopi kami sendiri serta mendidik dan mengembangkan tim "Coffee Experts" di HQ Coffee Toffee. Hal ini kami lakukan untuk memastikan bahwa setiap biji kopi yang dikirim ke setiap gerai Coffee Toffee adalah biji kopi yang bisa membawa dengan bangga nama baik  dari kualitas biji kopi Indoenesia.
+    </p>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://cdn.bitrix24.id/b14044525/landing/db2/db2bb4b6a4b962e712d35d8c7e20bcaa/Coffee_Toffee_-_Green_Bean_masuk_Hopper_01b_1x.jpg">
+        </div>
+        <div class="card">
+            <img src="https://cdn.bitrix24.id/b14044525/landing/37a/37a76d620825f1d92edc362a46882257/Coffee_Toffee_-_Roasting_Facility_-_Roaster_Coffee_Expert_03c_1x.jpg">
+        </div>
+        <div class="card">
+            <img src="https://cdn.bitrix24.id/b14044525/landing/d6d/d6d6bc99202497ffce863eb03055854b/Coffee_Toffee_-_Roasting_Facility_-_Roaster_Coffee_Expert_04b_2x.jpg">
+        </div>
+        <div class="card">
+            <img src="https://cdn.bitrix24.id/b14044525/landing/4d7/4d706049878b94812ecf63177e1c00bb/Coffee_Toffee_-_Roasting_Facility_-_Roaster_Coffee_Expert_06b_1x.jpg">
         </div>
     </div>
 </section>
